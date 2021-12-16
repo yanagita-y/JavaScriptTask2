@@ -1,4 +1,4 @@
-function task() {
+const task = () => {
     let input = "";
     while(input !== "東京") {
         input = prompt("日本の首都は？");
